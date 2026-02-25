@@ -1,0 +1,36 @@
+body{
+    background-color: bisque;
+}
+
+/* changing colour of header bg */
+header {
+    background-color: azure;
+    padding: 20px;
+    margin: 20px;
+}
+
+p{
+    color: darkcyan;
+}
+
+h1, h2, h3{
+    text-decoration: underline;
+}
+
+section p{
+    border: 2px solid black;
+}
+
+/* using ID to target an element */
+#aboutus{
+    background-color: lightcoral;
+}
+
+.imp-para{
+    /* text transformatio: uppercase */
+    background-color: cadetblue;
+}
+
+section ul li: :nth-child(odd){
+    background-color: gold;
+}

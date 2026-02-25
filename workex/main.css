@@ -1,0 +1,44 @@
+/* font_body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
+/* background_header and footer */
+header, footer {
+  background-color: #72d4d2;
+  padding: 20px;
+}
+/* class_selector */
+.site-title {
+  color: #b84d7b;
+  margin: 0;
+}
+/* id_selector_image */
+#my-image {
+  box-shadow: 0 0 2px 1px black;
+}
+/* bullets_replacement */
+.hobbies {
+list-style-type: square;
+}
+.hobbies li:nth-child(odd) {
+    background-color: #2b8a64;
+}
+/* navigation_style */
+/* remove the bullets */
+nav ul {
+  list-style: none;
+}
+/* Add a background and border to the links */
+nav a {
+    background-color: #1ab9d8;
+  border: 2px solid #000000;
+  padding: 8px 12px;
+}
+/* Change the background colour */
+nav a:hover,
+nav a:focus {
+  background-color: #be1aa6;
+}
